@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE = edge" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 user-scalable=0" />
+    <!-- <link rel="apple-touch-icon" sizes="160x160" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"> -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+    <link rel="apple-touch-icon" sizes="160x160" href="images/touch-icon-160x160.png" />
+    <meta name="msapplication-TileColor" content="#CE253D" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="all" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- <link rel="preload" href="fonts/AzbukaVkusa-Regular.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="fonts/AzbukaVkusa-Thin.woff2" as="font" crossorigin="anonymous" /> -->
+    <link rel="stylesheet preload prefetch" type="text/css" href="css/style.min.css" as="style" crossorigin="anonymous" />
+    <script src="js/all.min.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="news-letter" role="banner">
+          <div class="news-letter__form">
+            <h1> Stay updated!</h1>
+            <p class="form-desc"> Join 60,000+ product managers receiving monthly updates on:</p>
+            <form class="form" action="./js/data.json" method="post">
+            <ul>
+              <li>
+                <p>
+                  <svg class="svg-icons" id="icon-list1">
+                    <use xlink:href="images/svg/sprite.svg#icon-list"></use>
+                  </svg> Product discovery and building what matters
+                </p>
+              </li>
+              <li>
+                <p>
+                  <svg class="svg-icons" id="icon-list2">
+                    <use xlink:href="images/svg/sprite.svg#icon-list"></use>
+                  </svg> Measuring to ensure updates are a success 
+                </p>
+              </li>
+              <li>
+                <p>
+                  <svg class="svg-icons" id="icon-list3">
+                    <use xlink:href="images/svg/sprite.svg#icon-list"></use>
+                  </svg>
+                 And
+                  much more!
+                </p>
+              </li>
+            </ul>
+            <div class="input-wrapper">
+              <label for="email">
+                <p>Email address</p>
+                <span class="alarm-span">
+                  Valid email required
+                </span>
+                   </label>
+                   <input class="email-input form-input" type="email" name="email" id="email" placeholder="email@company.com">
+          
+              <input type="submit" class="button submit-input" value="Subscribe to monthly newsletter">
+           
+            </div>
+              </form>
+          </div>
+          <div class="news-letter__img">
+            <picture class="desktop-img">
+              <source srcset="images/illustration-sign-up-desktop.webp" type="image/webp">
+              <source srcset="images/illustration-sign-up-desktop.png" type="image/png">
+              <img src="images/illustration-sign-up-desktop.png" alt="app">
+            </picture>
+            <picture class="mobile-img">
+              <source srcset="images/illustration-sign-up-mobile.webp" type="image/webp">
+              <source srcset="images/illustration-sign-up-mobile.png" type="image/png">
+              <img src="images/illustration-sign-up-mobile.png" alt="app">
+            </picture>
+          </div>
+        </div>
+         <!-- Success message start -->  
+         <div class="popup ">
+          <div class="popup__block">
+            <div class="popup__block-wrapper">
+              <svg class="svg-icons" id="icon-list4">
+                <use xlink:href="images/svg/sprite.svg#icon-list"></use>
+              </svg> 
+            <h2>Thanks for subscribing!</h2>
+            <p> A confirmation email has been sent to ash@loremcompany.com.
+              Please open it and click the button inside to confirm your subscription.</p>
+              <button class="button" id="closeBtn">Dismiss message </button>
+            </div>
+            
+          </div>
+        </div>
+     <!-- Success message end -->
+        
+        <div class="attribution" role="contentinfo"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+          Mentor</a>. Coded by <a href="#">Your Name Here</a>. 
+        </div>
+      </div>
+    </main>
+ 
+  
+   
+   
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
