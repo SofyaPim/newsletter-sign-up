@@ -1,5 +1,4 @@
 # Frontend Mentor - Newsletter sign-up form with success message solution
-
 #  [solution here](https://sofyapim.github.io/newsletter-sign-up/)
 ###![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)
 ## The challenge
